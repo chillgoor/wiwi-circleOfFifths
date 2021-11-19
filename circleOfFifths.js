@@ -341,7 +341,7 @@ function debugText2() {
   fill(0);
   noStroke();
   textAlign(CENTER);
-  text(dbText2, 0, height * 0.455);
+  text(dbText2, 0, height * 0.47);
 }
 
 function mouseAngle(ang) {
