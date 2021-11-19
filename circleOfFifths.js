@@ -41,7 +41,7 @@ let coreRatio = 0.57;
 let coreType = "Detail";
 
 let dbText1 = "Circle of Fifths by Wiwi Kuan. Uploaded and deployed by Chill"
-let dbText2 = "boxx.chillgoor.ml"
+let dbText2 = "你的超哥 - boxx.chillgoor.ml"
 
 let mouseDir;
 
@@ -88,7 +88,7 @@ function setup() {
   detailTextSize = width * 0.0275;
 
   lockButton = createButton('[已鎖定]');
-  lockButton.position(19, 19);
+  lockButton.position(400, 19);
   lockButton.mousePressed(toggleLocked);
 
 
