@@ -40,7 +40,8 @@ let detailTextSize = 22;
 let coreRatio = 0.57;
 let coreType = "Detail";
 
-let dbText = "Circle of Fifths by NiceChord (Wiwi Kuan)"
+let dbText1 = "Circle of Fifths by Wiwi Kuan. Uploaded and deployed by Chill"
+let dbText2 = "boxx.chillgoor.ml"
 
 let mouseDir;
 
@@ -329,11 +330,18 @@ function drawCoreBlack(ang) {
   ellipse(0, 0, width * coreRatio);
 }
 
-function debugText() {
+function debugText1() {
   fill(0);
   noStroke();
   textAlign(CENTER);
-  text(dbText, 0, height * 0.45);
+  text(dbText1, 0, height * 0.45);
+}
+
+function debugText2() {
+  fill(0);
+  noStroke();
+  textAlign(CENTER);
+  text(dbText2, 0, height * 0.455);
 }
 
 function mouseAngle(ang) {
@@ -374,6 +382,7 @@ function draw() {
   drawMinor(angle);
   drawMinorText(angle);
   drawCore(angle);
-  debugText();
+  debugText1();
+  debugText2();
 
 }
