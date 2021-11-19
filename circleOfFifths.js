@@ -88,7 +88,7 @@ function setup() {
   detailTextSize = width * 0.0275;
 
   lockButton = createButton('[已鎖定]');
-  lockButton.position(363, 19);
+  lockButton.position(center);
   lockButton.mousePressed(toggleLocked);
 
 
